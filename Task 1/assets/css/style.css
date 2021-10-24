@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #E4F9F5;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background-color:black;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.logo{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 33%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.nav-list{
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li{
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover{
+  
+  color: grey;
+}
+
+.rightNav{
+  width: 30%;
+  text-align: right;
+  padding: 0 23px;
+}
+
+#search{
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+}
+
+.background{
+  background: rgba(9, 129, 235, 0.7) url('/assets/images/gehubg.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.firstSection{
+  height: 100vh;
+}
+
+.box-main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 50%;
+  margin: auto;
+  height: 80%;
+}
+
+.firstHalf{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondHalf{
+  width: 30%;
+  margin: auto;
+}
+
+.secondHalf img{
+  width: 70%;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+}
+
+.text-big{
+  font-size: 41px;
+  padding: 10px;
+}
+
+.text-small
+{
+  font-size: 18px;
+  padding: 10px;
+}
+
+.btn{
+  padding: 8px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 14px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: black;
+}
+
+.btn-sm{
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+
+.btn-dark{
+  color: black;
+  border: 2px solid black;
+}
+
+
+
+.section{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+.sectionTag{
+  padding: 16px 0;
+}
+.left{
+  flex-direction: row-reverse;
+  margin-right: 5%;
+}
+
+.garry{
+  padding: 0 65px;;
+}
+
+.thumbnail img{
+  border-radius: 10%;
+}
+
+
+.text-footer{
+  text-align: center;
+  padding:30px 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+}
+
+.burger{
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15%;
+  display: none;
+}
+
+.line{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+#Videos{
+  padding-bottom: 30px;
+  background-color:white;
+}
+
+.video{
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+
+.col-4{
+  text-align: center;
+  margin-top: 50px;
+}
+.col-3{
+  margin-left: 22%;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.h{
+  padding: 40px;
+  text-align: center;
+}
+
+#Team{
+  padding-bottom: 30px;
+}
+
+.img-crop{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.about-img{
+  text-align: center;
+}
+
+#about{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color:cornflowerblue;
+}
+
+.about-link{
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+p{
+  font-size: 20px;
+}

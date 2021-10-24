@@ -1,0 +1,101 @@
+@media only screen and (max-width:1140px){
+
+    body{
+      width: 160%;
+    }
+    .nav-list{
+      flex-direction: column;
+    }
+    .navbar{
+      flex-direction: column;
+      transition: all 0.7s ease-out;
+      height: 478px;
+      background: rgba(9, 129, 235, 0.7) url('/assets/images/gehubg.jpg');
+    }
+    .rightNav{
+      text-align: center;
+    }
+    .box-main{
+      flex-direction: column-reverse;
+      max-width: 100%;
+    }
+    #search{
+      width: 100%;
+    }
+    .burger{
+      display: block;
+    }
+    .h-nav{
+      height: 72px;
+    }
+    .v-class{
+      opacity: 0;
+    }
+    .secondHalf img{
+      visibility: hidden;
+    }
+    .section{
+      flex-direction: column-reverse;
+      padding: 20px;
+    }
+    .sectionTag{
+      margin: 10px;
+      text-align: center;
+    }
+    .secondSubTag{
+      margin: 10px;
+      text-align: center;
+    }
+    .text-big{
+      text-align: center;
+      margin-left: 300px;
+      margin-top: 20px;
+    }
+    .text-small{
+      text-align: center;
+      margin-left: 300px;
+    }
+    .buttons{
+      text-align: center;
+      margin-left: 300px;
+    }
+    .paras{
+      padding: 0px;
+    }
+  }
+
+  @media only screen and (max-width:768px)
+  {
+    .text-big{
+      text-align: center;
+      margin-left: 250px;
+    }
+    .text-small{
+      text-align: center;
+      margin-left: 250px;
+    }
+    .buttons{
+        margin-left: 250px;
+    }
+  }
+
+  @media only screen and (max-width:426px)
+  {
+    body{
+      width: 123%;
+    }
+    .text-big{
+      text-align: center;
+      margin-left: 120px;
+    }
+    .text-small{
+      text-align: center;
+      margin-left: 120px;
+    }
+    .buttons{
+        margin-left: 120px;
+    }
+    .col-3{
+      display: contents;
+    }
+  }
